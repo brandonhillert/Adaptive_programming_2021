@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36f45eb-60f7-4c2e-bee3-4c3dd2cf2ec9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Persoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Formatieve opdracht 1a Autoverhuur/src/ObjectOrientedProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Formatieve opdracht 1a Autoverhuur/src/ObjectOrientedProgramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Persoon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1618584335774</updated>
-      <workItem from="1618584339296" duration="2248000" />
+      <workItem from="1618584339296" duration="2316000" />
     </task>
     <servers />
   </component>

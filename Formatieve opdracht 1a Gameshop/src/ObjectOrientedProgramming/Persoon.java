@@ -15,7 +15,7 @@ public class Persoon {
         System.out.println("hoi");
     }
 
-    public static void verkoop(){
+    public static void verkoop(Game game, Persoon persoon){
 
     }
 
