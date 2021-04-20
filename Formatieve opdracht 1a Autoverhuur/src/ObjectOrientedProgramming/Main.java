@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println("\n Eerste autohuur: " + ah1.toString());
 
-        
+
 
         Auto a1= new Auto("Peugeot 207", 50);
         ah1.setGehuurdeAuto(a1);
