@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c36f45eb-60f7-4c2e-bee3-4c3dd2cf2ec9" name="Default Changelist" comment="" />
+    <list default="true" id="c36f45eb-60f7-4c2e-bee3-4c3dd2cf2ec9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/formatieve opdracht 2a machine met tekstinvoer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/src/ObjectOrientedProgramming/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formatieve opdracht 2a machine met tekstinvoer/src/ObjectOrientedProgramming/Transition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/ObjectOrientedProgramming/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/ObjectOrientedProgramming/Transistion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/formatieve opdracht 2a machine met tekstinvoer.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +101,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/GooiDobbelsteen" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -89,21 +110,10 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Main" />
-      <module name="untitled104" />
+      <module name="formatieve opdracht 2a machine met tekstinvoer" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,10 +133,23 @@
       <option name="presentableId" value="Default" />
       <updated>1618584335774</updated>
       <workItem from="1618584339296" duration="3043000" />
+      <workItem from="1620308183165" duration="284000" />
+      <workItem from="1620657032361" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
