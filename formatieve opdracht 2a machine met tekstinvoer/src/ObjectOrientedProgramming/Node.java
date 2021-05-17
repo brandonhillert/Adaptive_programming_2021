@@ -13,10 +13,6 @@ public class Node {
         return currentNode;
     }
 
-    public void setCurrentNode(String currentNode) {
-        this.currentNode = currentNode;
-    }
-
     public Node getNextNode() {
         return nextNode;
     }

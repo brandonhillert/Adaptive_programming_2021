@@ -6,39 +6,44 @@ public class Main {
     public static <code> void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
-
+        
         Node s0 = new Node("S0");
         Node s1 = new Node("S1");
         Node s2 = new Node("S2");
         Node s3 = new Node("S3");
 
         Node state = s0;
-        //Node newState = s1;
-
-        System.out.println("Geef een code dat bestaat uit 4 characters allen A of B: ");
-        String code = input.next();
+        String code;
 
 
+        do {
+            System.out.println("Geef een code dat bestaat uit 4 characters allen A of B: ");
+            code = input.next();
+        }
+        while (!checkCode(code));
 
-        if (checkCode(code)){
+
+        if (checkCode(code)) {
             for (int i = 0; i < 4; i++) {
 
                 String connection = Character.toString(code.charAt(i));
 
-                if( connection.equals("A")){
+                if (connection.equals("A")) {
                     s0.setNextNode(s2); //A
                     s1.setNextNode(s1); //A
                     s3.setNextNode(s3); //A
 
+                    if (state.getCurrentNode().equals("S2")) {
+                        System.out.println("error, dit kan niet");
+                        break;
+                    }
                 }
 
-                if( connection.equals("B")){
+                if (connection.equals("B")) {
                     s0.setNextNode(s1); //B
                     s1.setNextNode(s2); //B
                     s2.setNextNode(s3); //B
                     s3.setNextNode(s0); //B
-
                 }
 
                 System.out.println("State " + state.getCurrentNode());
