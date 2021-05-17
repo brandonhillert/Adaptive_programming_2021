@@ -2,21 +2,14 @@ package ObjectOrientedProgramming;
 
 public class Transition {
 
-    public Node currentNode;
-    public Transition transition;
-    public Node nextNode;
+    public int currentNode;
+    public int nextNode;
 
-    public Transition(Node currentNode, Transition transition, Node nextNode) {
+
+    public Transition(int currentNode, int nextNode) {
         this.currentNode = currentNode;
-        this.transition = transition;
         this.nextNode = nextNode;
     }
-
-    public void trans(){
-
-    }
-
-
 
 
 

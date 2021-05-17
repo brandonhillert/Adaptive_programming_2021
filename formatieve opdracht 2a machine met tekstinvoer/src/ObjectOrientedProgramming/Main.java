@@ -7,25 +7,54 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        Node state1 = new Node(0);
-        Node state2 = new Node(1);
-        Node state3 = new Node(2);
-        Node state4 = new Node(3);
 
+        Node s0 = new Node("S0");
+        Node s1 = new Node("S1");
+        Node s2 = new Node("S2");
+        Node s3 = new Node("S3");
+
+        Node state = s0;
+        //Node newState = s1;
 
         System.out.println("Geef een code dat bestaat uit 4 characters allen A of B: ");
         String code = input.next();
 
-        checkCode(code);
 
+
+        if (checkCode(code)){
+            for (int i = 0; i < 4; i++) {
+
+                String connection = Character.toString(code.charAt(i));
+
+                if( connection.equals("A")){
+                    s0.setNextNode(s2); //A
+                    s1.setNextNode(s1); //A
+                    s3.setNextNode(s3); //A
+
+                }
+
+                if( connection.equals("B")){
+                    s0.setNextNode(s1); //B
+                    s1.setNextNode(s2); //B
+                    s2.setNextNode(s3); //B
+                    s3.setNextNode(s0); //B
+
+                }
+
+                System.out.println("State " + state.getCurrentNode());
+                state = state.getNextNode();
+
+            }
+            System.out.println("State " + state.getCurrentNode());
+        }
     }
 
-    private static void checkCode(String codes){
+    private static boolean checkCode(String codes){
         String code = codes;
+        boolean codeGoedOfFout = false;
         if (code.length() == 4) {
 
             char[] chars = code.toCharArray();
-            boolean codeGoedOfFout = false;
 
             for (char c : chars) {
                 c = Character.toUpperCase(c);
@@ -37,11 +66,7 @@ public class Main {
                     break;
                 }
             }
-            System.out.println(codeGoedOfFout);
         }
+        return codeGoedOfFout;
     }
-
-
-
-
 }
