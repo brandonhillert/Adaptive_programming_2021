@@ -1,78 +1,89 @@
-package ObjectOrientedProgramming;
+/**
+ * Author: Brandon Hillert
+ * Date: 17-05-2021
+ * Program: Finite State Machine with Text implement
+ */
 
-import java.util.ArrayList;
+package ObjectOrientedProgramming;
 import java.util.Scanner;
 
 public class Main {
 
-    private static ArrayList<String> visited = new ArrayList<>();
-    private static boolean running = true;
+    public static <code> void main(String[] args) {
 
-    public static void appendName(Node node){
-        visited.add(node.getStateName());
-    }
+        Scanner input = new Scanner(System.in);
 
-    public static void quit(){
-        System.out.println(visited.toString());
-        running = false;
-    }
+        //Aanmaken Node objecten
+        Node s0 = new Node("S0");
+        Node s1 = new Node("S1");
+        Node s2 = new Node("S2");
+        Node s3 = new Node("S3");
 
-    public static void main(String[] args) {
-//    finite state machine, machine with text input
-        Node s0 = new Node("s0");
-        Node s1 = new Node("s1");
-        Node s2 = new Node("s2");
-        Node s3 = new Node("s3");
-        Node current = s0;
-        appendName(current);
 
-        s0.setConA(s2);
-        s0.setConB(s1);
+        Node state = s0;
+        String code;
 
-        s1.setConA(s1);
-        s1.setConB(s2);
+        //Functie voor het invullen van een geldige code
+        do {
+            System.out.println("Geef een code dat bestaat uit 4 characters allen A of B: ");
+            code = input.next();
+        }
+        while (!checkCode(code));
 
-        s2.setConB(s3);
 
-        s3.setConA(s3);
-        s3.setConB(s0);
+        // If statement die het patroon van de code volgt
+        if (checkCode(code)) {
+            for (int i = 0; i < 4; i++) {
 
-        Scanner in = new Scanner(System.in);
-        while (running){
-            System.out.println("\nType A/B\n(quit):");
-            String input = in.nextLine().toUpperCase();
-            Node newNode;
-            switch (input){
-                case "A":
-                    System.out.println("Case A:"+input);
-                    newNode = current.getA();
-                    if(newNode != null){
-                        appendName(newNode);
-                    }else{
-                        System.out.println("\n Invalid connection beeing called,"+current.getStateName()+" does not have a connection called:"+input);
-                        quit();
+                String connection = Character.toString(code.charAt(i));
+
+                //Letter A in code geeft transities A
+                if (connection.equals("A")) {
+                    s0.setNextNode(s2); //A
+                    s1.setNextNode(s1); //A
+                    s3.setNextNode(s3); //A
+
+                    if (state.getCurrentNode().equals("S2")) {
+                        System.out.println("error, dit kan niet");
+                        break;
                     }
-                    current = newNode;
-                    break;
-                case "B":
-                    System.out.println("Case B:"+input);
-                    newNode = current.getB();
-                    if(newNode != null){
-                        appendName(newNode);
-                    }else{
-                        System.out.println("\n Invalid connection beeing called,"+current.getStateName()+" does not have a connection called:"+input);
-                        quit();
-                    }
-                    current = newNode;
-                    break;
-                case "QUIT":
-                    quit();
-                    break;
-                default:
-                    System.out.println("Input a valid option");
+                }
+
+                //Letter A in code geeft transities A
+                if (connection.equals("B")) {
+                    s0.setNextNode(s1); //B
+                    s1.setNextNode(s2); //B
+                    s2.setNextNode(s3); //B
+                    s3.setNextNode(s0); //B
+                }
+
+                System.out.println("State " + state.getCurrentNode());
+                state = state.getNextNode();
+
             }
+            System.out.println("State " + state.getCurrentNode());
         }
     }
 
+    // Functie die code controleert op format
+    private static boolean checkCode(String codes){
+        String code = codes;
+        boolean codeGoedOfFout = false;
+        if (code.length() == 4) {
 
+            char[] chars = code.toCharArray();
+
+            for (char c : chars) {
+                c = Character.toUpperCase(c);
+
+                if (c == 'A' || c == 'B') {
+                    codeGoedOfFout = true;
+                } else {
+                    codeGoedOfFout = false;
+                    break;
+                }
+            }
+        }
+        return codeGoedOfFout;
+    }
 }

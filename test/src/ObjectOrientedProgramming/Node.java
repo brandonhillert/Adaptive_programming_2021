@@ -1,31 +1,24 @@
 package ObjectOrientedProgramming;
 
 public class Node {
-    public String stateName;
-    public Node A = null;
-    public Node B = null;
 
-    public Node(String stateName){
-        this.stateName = stateName;
+    public String currentNode;
+    public Node nextNode;
+
+    public Node(String currentNode) {
+        this.currentNode = currentNode;
     }
 
-    public String getStateName(){
-        return this.stateName;
+    public String getCurrentNode() {
+        return currentNode;
     }
 
-    public void setConA(Node A){
-        this.A = A;
+    public Node getNextNode() {
+        return nextNode;
     }
 
-    public void setConB(Node B){
-        this.B = B;
-    }
-
-    public Node getA(){
-        return this.A;
-    }
-
-    public Node getB(){
-        return this.B;
+    public void setNextNode(Node nextNode) {
+        this.nextNode = nextNode;
     }
 }
+
