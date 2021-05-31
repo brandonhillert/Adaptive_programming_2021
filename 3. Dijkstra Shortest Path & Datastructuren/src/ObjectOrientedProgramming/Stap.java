@@ -1,4 +1,9 @@
 package ObjectOrientedProgramming;
 
-public class Stap {
+public abstract class Stap {
+
+    public String duurReis;
+
+
+
 }
