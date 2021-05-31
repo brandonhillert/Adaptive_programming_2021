@@ -2,23 +2,18 @@ package ObjectOrientedProgramming;
 
 public class Node {
 
-    public String currentNode;
-    public Node nextNode;
+    public String node;
 
-    public Node(String currentNode) {
-        this.currentNode = currentNode;
+    public Node(String node) {
+        this.node = node;
     }
 
-    public String getCurrentNode() {
-        return currentNode;
-    }
 
-    public Node getNextNode() {
-        return nextNode;
-    }
 
-    public void setNextNode(Node nextNode) {
-        this.nextNode = nextNode;
-    }
+
+
+
+
+
 }
 
