@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00e6ff88-5143-4d87-9c53-c23ee312e3a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/FiniteStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Transition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Connection.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Node.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +22,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tIzJaJlQmqR9pXjIdEhuGwPb1z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,6 +104,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../easy-states-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -129,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622471323581</updated>
-      <workItem from="1622471325436" duration="1148000" />
+      <workItem from="1622471325436" duration="18287000" />
     </task>
     <servers />
   </component>
