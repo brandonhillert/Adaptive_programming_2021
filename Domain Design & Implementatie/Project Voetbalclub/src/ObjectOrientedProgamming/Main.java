@@ -58,8 +58,6 @@ public class Main {
 
         ajax.addTeams(jongens1);
 
-
-
         System.out.println(ajax);
 
         System.out.println("\nHieronder wordt het team van heren 1 als voorbeeld afgedrukt:");

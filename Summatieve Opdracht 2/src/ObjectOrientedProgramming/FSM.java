@@ -21,8 +21,6 @@ public class FSM {
         return code;
     }
 
-
-
     public void firstStep(Node a) {
         this.ListOfNodes.add(a);
     }
@@ -36,7 +34,6 @@ public class FSM {
             if (nextNode == null) {
                 break;
             }
-
             ListOfNodes.add(nextNode);
         }
     }

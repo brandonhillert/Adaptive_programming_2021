@@ -76,7 +76,7 @@ public class Main {
         System.out.println(Summatieve_opdracht);
     }
 
-    //Function for checking Code on correct input
+    //Functie die correcte output controleerd
     private static boolean checkCode(String codes){
         String code = codes;
         boolean codeGoedOfFout = false;

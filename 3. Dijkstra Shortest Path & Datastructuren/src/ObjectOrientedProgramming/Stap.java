@@ -1,9 +1,14 @@
 package ObjectOrientedProgramming;
 
-public abstract class Stap {
+public class Stap {
+    public Node eind;
+    public int value;
 
-    public String duurReis;
+    public Stap() {
+    }
 
-
+    public int getValue() {
+        return value;
+    }
 
 }

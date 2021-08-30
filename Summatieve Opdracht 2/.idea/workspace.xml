@@ -2,28 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df657509-485d-47ff-96be-3b6aebe4d386" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/shortestPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/Test.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Domain Design &amp; Implementatie/.idea/Domain Design &amp; Implementatie.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/FSM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/NodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/TestFSM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/3. Dijkstra Shortest Path &amp; Datastructuren.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/3. Dijkstra Shortest Path &amp; Datastructuren.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Comparable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Reis.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Reis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Rit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Rit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Stap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Stap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Treinrit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Treinrit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Vlucht.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren/src/ObjectOrientedProgramming/Vlucht.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Domain Design &amp; Implementatie/Project Voetbalclub/src/ObjectOrientedProgamming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Domain Design &amp; Implementatie/Project Voetbalclub/src/ObjectOrientedProgamming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Summatieve Opdracht 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/textConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Summatieve Opdracht 2/ObjectOrientedProgramming/textNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/FiniteStateMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ObjectOrientedProgramming/FSM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ObjectOrientedProgramming/FSM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ObjectOrientedProgramming/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/ObjectOrientedProgramming/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/FSM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/FSM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/State.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ObjectOrientedProgramming/Transition.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../3. Dijkstra Shortest Path &amp; Datastructuren" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -129,7 +126,7 @@
       <recent name="ObjectOrientedProgramming" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFSM.firstStep">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ObjectOrientedProgramming.Main" />
       <module name="untitled104" />
@@ -140,13 +137,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,10 +205,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestFSM.firstStep" />
         <item itemvalue="JUnit.TestFSM" />
         <item itemvalue="JUnit.TestFSM.path" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +220,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1627567765890</updated>
-      <workItem from="1627567769349" duration="16490000" />
+      <workItem from="1627567769349" duration="17272000" />
+      <workItem from="1630268546692" duration="3282000" />
     </task>
     <servers />
   </component>
@@ -238,5 +238,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
