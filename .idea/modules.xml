@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Adaptive_programming_2021.iml" filepath="$PROJECT_DIR$/.idea/Adaptive_programming_2021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dijkstrasshortestpath/Dijkstrasshortestpath.iml" filepath="$PROJECT_DIR$/Dijkstrasshortestpath/Dijkstrasshortestpath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Domain Design &amp; Implementatie/Domain Design &amp; Implementatie.iml" filepath="$PROJECT_DIR$/Domain Design &amp; Implementatie/Domain Design &amp; Implementatie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Formatieve opdracht 1a Autoverhuur/Formatieve opdracht 1a Autoverhuur.iml" filepath="$PROJECT_DIR$/Formatieve opdracht 1a Autoverhuur/Formatieve opdracht 1a Autoverhuur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Formatieve opdracht 1a Gameshop/Formatieve opdracht 1a Gameshop.iml" filepath="$PROJECT_DIR$/Formatieve opdracht 1a Gameshop/Formatieve opdracht 1a Gameshop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Summatieve Opdracht 2/Summatieve Opdracht 2.iml" filepath="$PROJECT_DIR$/Summatieve Opdracht 2/Summatieve Opdracht 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/formatieve opdracht 2a machine met tekstinvoer/formatieve opdracht 2a machine met tekstinvoer.iml" filepath="$PROJECT_DIR$/formatieve opdracht 2a machine met tekstinvoer/formatieve opdracht 2a machine met tekstinvoer.iml" />
+    </modules>
+  </component>
+</project>

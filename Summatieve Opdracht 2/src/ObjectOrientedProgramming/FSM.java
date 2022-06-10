@@ -6,19 +6,14 @@ public class FSM {
     private String code;
     private List<Node> ListOfNodes = new ArrayList<>();
 
+    //Constructor
     public FSM(String nameMachine) {
         this.nameMachine = nameMachine;
     }
 
-    public String getNameMachine() {
-        return nameMachine;
-    }
 
     public void setCode(String code) {
         this.code = code;
-    }
-    public String getCode() {
-        return code;
     }
 
     public void firstStep(Node a) {
@@ -38,11 +33,13 @@ public class FSM {
         }
     }
 
+    public List<Node> getListOfNodes() {
+        return ListOfNodes;
+    }
+
     @Override
     public String toString() {
-        return "Fsm: " + nameMachine + '\'' +
-                ", CODE: '" + code + '\'' +
-                ", List of nodes [" + ListOfNodes + ']';
+        return "List of nodes [" + ListOfNodes;
     }
 
 }

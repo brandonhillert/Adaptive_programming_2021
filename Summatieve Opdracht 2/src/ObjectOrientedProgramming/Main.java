@@ -31,12 +31,20 @@ public class Main {
         s3.addNextNode('A', s3);
         s3.addNextNode('B', s0);
 
+
+        System.out.println(s0);
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s3);
+
+
         //Check for input
         do {
             System.out.println("Geef een code dat bestaat uit 4 characters allen A of B: ");
             code = input.next();
         }
         while (!checkCode(code));
+
 
         formatieve_opdracht.setCode(code);
         formatieve_opdracht.firstStep(s0);
@@ -70,9 +78,19 @@ public class Main {
         p5.addNextNode('X', p5);
 
 
+        System.out.println(p0);
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
+        System.out.println(p4);
+        System.out.println(p5);
+
+
+
         Summatieve_opdracht.setCode(code2);
         Summatieve_opdracht.firstStep(p2);
         Summatieve_opdracht.pathTaken();
+        System.out.println(Summatieve_opdracht.getListOfNodes());
         System.out.println(Summatieve_opdracht);
     }
 
